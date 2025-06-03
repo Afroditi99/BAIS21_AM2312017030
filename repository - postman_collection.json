@@ -1,0 +1,22 @@
+{
+  "name": "Create and View GitHub Repo",
+  "request": {
+    "method": "GET",
+    "auth": {
+      "type": "bearer",
+      "bearer": [
+        {
+          "key": "token",
+          "value": "ghp_xxx",
+          "type": "string"
+        }
+      ]
+    },
+    "url": {
+      "raw": "https://api.github.com/repos/Afroka/BAIS21_AM2312017030",
+      "protocol": "https",
+      "host": ["api", "github", "com"],
+      "path": ["repos", "Afroka", "BAIS21_AM2312017030"]
+    }
+  }
+}
